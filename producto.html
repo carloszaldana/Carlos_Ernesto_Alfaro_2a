@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <div>
+        <form action="guardar.html" method="get">
+            <table border="1px" cellpadding="5px" cellspacing="0">
+                <!-- cuerpo de la tabla -->
+                <tbody>
+                    <tr>
+                        <th colspan="4">Registro de Producto</th>
+                    </tr>
+                    <tr>
+                        <td>codigo</td>
+                        <td colspan="3">
+                            <input type="text" name="codigo" id="codigo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>descripcion</td>
+                        <td colspan="3">
+                            <input type="text" name="descripcion" id="descripcion">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>codigo de barra</td>
+                        <td colspan="3">
+                            <input type="text" name="codigo_de_barra" id="codigo_de_barra">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>precio unitario</td>
+                        <td colspan="3">
+                            <input type="text" name="precio_unitario" id="precio_unitario">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>stock</td>
+                        <td colspan="3">
+                            <input type="text" name="stock" id="stock">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>proveedor</td>
+                        <td colspan="3">
+                            <input type="text" name="proveedor" id="proveedor">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Estado</td>
+                        <td colspan="3">
+                            <input type="checkbox" id="check" name="check">Activo<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Categoría:</td>
+                        <td colspan="3">
+                            <select name="categoria" id="categoria">
+                                <option value="categoria 1">Categoría 1</option>
+                                <option value="categoria 2">Categoría 2</option>
+                                <option value="categoria 3">Categoría 3</option>
+                                <option value="categoria 4">Categoría 4</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input type="submit" id="btn" name="btn" value="Guardar"><br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <button><a href="index.html">Cancelar</button>
+    </div>
+</body>
+</html>
